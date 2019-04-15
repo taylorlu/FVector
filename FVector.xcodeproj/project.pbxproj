@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0432D222645FF700ED8C63 /* ocrRotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432AA22645FF600ED8C63 /* ocrRotate.cpp */; };
+		5E0432D322645FF700ED8C63 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432AF22645FF600ED8C63 /* utils.cpp */; };
+		5E0432D422645FF700ED8C63 /* nldiffusion_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432B322645FF600ED8C63 /* nldiffusion_functions.cpp */; };
+		5E0432D522645FF700ED8C63 /* fed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432B422645FF600ED8C63 /* fed.cpp */; };
+		5E0432D622645FF700ED8C63 /* AKAZE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432B622645FF600ED8C63 /* AKAZE.cpp */; };
+		5E0432D722645FF700ED8C63 /* siftRansac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432B722645FF600ED8C63 /* siftRansac.cpp */; };
+		5E0432D822645FF700ED8C63 /* mtcnn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432BA22645FF700ED8C63 /* mtcnn.cpp */; };
+		5E0432D922645FF700ED8C63 /* comm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432C322645FF700ED8C63 /* comm.cpp */; };
+		5E0432DA22645FF700ED8C63 /* vladRootIDF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432CD22645FF700ED8C63 /* vladRootIDF.cpp */; };
+		5E0432DB22645FF700ED8C63 /* faceEmbedding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432CF22645FF700ED8C63 /* faceEmbedding.cpp */; };
+		5E0432DC22645FF700ED8C63 /* vectorSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432D022645FF700ED8C63 /* vectorSearch.cpp */; };
+		5E0432DD22645FF700ED8C63 /* faceDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0432D122645FF700ED8C63 /* faceDetect.cpp */; };
 		5E2128592011A7D500C7F3B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2128582011A7D500C7F3B4 /* main.m */; };
 		5E2128AB2011A7E600C7F3B4 /* ikmeans.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E2128602011A7E500C7F3B4 /* ikmeans.c */; };
 		5E2128AC2011A7E600C7F3B4 /* scalespace.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E2128612011A7E500C7F3B4 /* scalespace.c */; };
@@ -76,6 +88,44 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5E0432A922645FF600ED8C63 /* vectorSearch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vectorSearch.hpp; sourceTree = "<group>"; };
+		5E0432AA22645FF600ED8C63 /* ocrRotate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ocrRotate.cpp; sourceTree = "<group>"; };
+		5E0432AB22645FF600ED8C63 /* vladRootIDF.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vladRootIDF.hpp; sourceTree = "<group>"; };
+		5E0432AC22645FF600ED8C63 /* comm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = comm.hpp; sourceTree = "<group>"; };
+		5E0432AE22645FF600ED8C63 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		5E0432AF22645FF600ED8C63 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		5E0432B022645FF600ED8C63 /* fed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fed.h; sourceTree = "<group>"; };
+		5E0432B122645FF600ED8C63 /* AKAZE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAZE.h; sourceTree = "<group>"; };
+		5E0432B222645FF600ED8C63 /* nldiffusion_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nldiffusion_functions.h; sourceTree = "<group>"; };
+		5E0432B322645FF600ED8C63 /* nldiffusion_functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nldiffusion_functions.cpp; sourceTree = "<group>"; };
+		5E0432B422645FF600ED8C63 /* fed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fed.cpp; sourceTree = "<group>"; };
+		5E0432B522645FF600ED8C63 /* AKAZEConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAZEConfig.h; sourceTree = "<group>"; };
+		5E0432B622645FF600ED8C63 /* AKAZE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AKAZE.cpp; sourceTree = "<group>"; };
+		5E0432B722645FF600ED8C63 /* siftRansac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = siftRansac.cpp; sourceTree = "<group>"; };
+		5E0432B922645FF700ED8C63 /* modelbin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelbin.h; sourceTree = "<group>"; };
+		5E0432BA22645FF700ED8C63 /* mtcnn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mtcnn.cpp; sourceTree = "<group>"; };
+		5E0432BB22645FF700ED8C63 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		5E0432BC22645FF700ED8C63 /* mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat.h; sourceTree = "<group>"; };
+		5E0432BD22645FF700ED8C63 /* blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
+		5E0432BE22645FF700ED8C63 /* layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer.h; sourceTree = "<group>"; };
+		5E0432BF22645FF700ED8C63 /* paramdict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paramdict.h; sourceTree = "<group>"; };
+		5E0432C022645FF700ED8C63 /* mtcnn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtcnn.h; sourceTree = "<group>"; };
+		5E0432C122645FF700ED8C63 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		5E0432C222645FF700ED8C63 /* ocrRotate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ocrRotate.hpp; sourceTree = "<group>"; };
+		5E0432C322645FF700ED8C63 /* comm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = comm.cpp; sourceTree = "<group>"; };
+		5E0432C522645FF700ED8C63 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		5E0432C622645FF700ED8C63 /* mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat.h; sourceTree = "<group>"; };
+		5E0432C722645FF700ED8C63 /* blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
+		5E0432C822645FF700ED8C63 /* layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer.h; sourceTree = "<group>"; };
+		5E0432C922645FF700ED8C63 /* paramdict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paramdict.h; sourceTree = "<group>"; };
+		5E0432CA22645FF700ED8C63 /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		5E0432CB22645FF700ED8C63 /* layer_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer_type.h; sourceTree = "<group>"; };
+		5E0432CC22645FF700ED8C63 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		5E0432CD22645FF700ED8C63 /* vladRootIDF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vladRootIDF.cpp; sourceTree = "<group>"; };
+		5E0432CE22645FF700ED8C63 /* siftRansac.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = siftRansac.hpp; sourceTree = "<group>"; };
+		5E0432CF22645FF700ED8C63 /* faceEmbedding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = faceEmbedding.cpp; sourceTree = "<group>"; };
+		5E0432D022645FF700ED8C63 /* vectorSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vectorSearch.cpp; sourceTree = "<group>"; };
+		5E0432D122645FF700ED8C63 /* faceDetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = faceDetect.cpp; sourceTree = "<group>"; };
 		5E2128552011A7D500C7F3B4 /* FVector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FVector; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2128582011A7D500C7F3B4 /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.m; sourceTree = "<group>"; };
 		5E2128602011A7E500C7F3B4 /* ikmeans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ikmeans.c; sourceTree = "<group>"; };
@@ -205,6 +255,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E0432AD22645FF600ED8C63 /* akaze */ = {
+			isa = PBXGroup;
+			children = (
+				5E0432AE22645FF600ED8C63 /* utils.h */,
+				5E0432AF22645FF600ED8C63 /* utils.cpp */,
+				5E0432B022645FF600ED8C63 /* fed.h */,
+				5E0432B122645FF600ED8C63 /* AKAZE.h */,
+				5E0432B222645FF600ED8C63 /* nldiffusion_functions.h */,
+				5E0432B322645FF600ED8C63 /* nldiffusion_functions.cpp */,
+				5E0432B422645FF600ED8C63 /* fed.cpp */,
+				5E0432B522645FF600ED8C63 /* AKAZEConfig.h */,
+				5E0432B622645FF600ED8C63 /* AKAZE.cpp */,
+			);
+			path = akaze;
+			sourceTree = "<group>";
+		};
+		5E0432B822645FF700ED8C63 /* mtcnn */ = {
+			isa = PBXGroup;
+			children = (
+				5E0432B922645FF700ED8C63 /* modelbin.h */,
+				5E0432BA22645FF700ED8C63 /* mtcnn.cpp */,
+				5E0432BB22645FF700ED8C63 /* net.h */,
+				5E0432BC22645FF700ED8C63 /* mat.h */,
+				5E0432BD22645FF700ED8C63 /* blob.h */,
+				5E0432BE22645FF700ED8C63 /* layer.h */,
+				5E0432BF22645FF700ED8C63 /* paramdict.h */,
+				5E0432C022645FF700ED8C63 /* mtcnn.h */,
+				5E0432C122645FF700ED8C63 /* platform.h */,
+			);
+			path = mtcnn;
+			sourceTree = "<group>";
+		};
+		5E0432C422645FF700ED8C63 /* ncnn */ = {
+			isa = PBXGroup;
+			children = (
+				5E0432C522645FF700ED8C63 /* net.h */,
+				5E0432C622645FF700ED8C63 /* mat.h */,
+				5E0432C722645FF700ED8C63 /* blob.h */,
+				5E0432C822645FF700ED8C63 /* layer.h */,
+				5E0432C922645FF700ED8C63 /* paramdict.h */,
+				5E0432CA22645FF700ED8C63 /* cpu.h */,
+				5E0432CB22645FF700ED8C63 /* layer_type.h */,
+				5E0432CC22645FF700ED8C63 /* platform.h */,
+			);
+			path = ncnn;
+			sourceTree = "<group>";
+		};
 		5E21284C2011A7D500C7F3B4 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +322,21 @@
 		5E2128572011A7D500C7F3B4 /* FVector */ = {
 			isa = PBXGroup;
 			children = (
+				5E0432AD22645FF600ED8C63 /* akaze */,
+				5E0432C322645FF700ED8C63 /* comm.cpp */,
+				5E0432AC22645FF600ED8C63 /* comm.hpp */,
+				5E0432D122645FF700ED8C63 /* faceDetect.cpp */,
+				5E0432CF22645FF700ED8C63 /* faceEmbedding.cpp */,
+				5E0432B822645FF700ED8C63 /* mtcnn */,
+				5E0432C422645FF700ED8C63 /* ncnn */,
+				5E0432AA22645FF600ED8C63 /* ocrRotate.cpp */,
+				5E0432C222645FF700ED8C63 /* ocrRotate.hpp */,
+				5E0432B722645FF600ED8C63 /* siftRansac.cpp */,
+				5E0432CE22645FF700ED8C63 /* siftRansac.hpp */,
+				5E0432D022645FF700ED8C63 /* vectorSearch.cpp */,
+				5E0432A922645FF600ED8C63 /* vectorSearch.hpp */,
+				5E0432CD22645FF700ED8C63 /* vladRootIDF.cpp */,
+				5E0432AB22645FF600ED8C63 /* vladRootIDF.hpp */,
 				5E21285F2011A7E500C7F3B4 /* vl */,
 				5E2128582011A7D500C7F3B4 /* main.m */,
 			);
@@ -397,21 +509,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0432D522645FF700ED8C63 /* fed.cpp in Sources */,
 				5E2128B42011A7E600C7F3B4 /* vlad.c in Sources */,
+				5E0432DB22645FF700ED8C63 /* faceEmbedding.cpp in Sources */,
 				5E2128B32011A7E600C7F3B4 /* mser.c in Sources */,
 				5E2128C72011A7E600C7F3B4 /* imopv_sse2.c in Sources */,
 				5E2128BF2011A7E600C7F3B4 /* mathop.c in Sources */,
 				5E2128B62011A7E600C7F3B4 /* mathop_avx.c in Sources */,
 				5E2128B12011A7E600C7F3B4 /* homkermap.c in Sources */,
 				5E2128C42011A7E600C7F3B4 /* mathop_sse2.c in Sources */,
+				5E0432D922645FF700ED8C63 /* comm.cpp in Sources */,
+				5E0432DD22645FF700ED8C63 /* faceDetect.cpp in Sources */,
 				5E2128C82011A7E600C7F3B4 /* aib.c in Sources */,
 				5E2128B92011A7E600C7F3B4 /* hog.c in Sources */,
 				5E2128AD2011A7E600C7F3B4 /* getopt_long.c in Sources */,
 				5E2128CA2011A7E600C7F3B4 /* fisher.c in Sources */,
+				5E0432D722645FF700ED8C63 /* siftRansac.cpp in Sources */,
 				5E2128B02011A7E600C7F3B4 /* liop.c in Sources */,
 				5E2128B72011A7E600C7F3B4 /* dsift.c in Sources */,
 				5E2128C22011A7E600C7F3B4 /* generic.c in Sources */,
 				5E2128CC2011A7E600C7F3B4 /* covdet.c in Sources */,
+				5E0432D422645FF700ED8C63 /* nldiffusion_functions.cpp in Sources */,
 				5E2128C92011A7E600C7F3B4 /* sift.c in Sources */,
 				5E2128BE2011A7E600C7F3B4 /* rodrigues.c in Sources */,
 				5E2128C52011A7E600C7F3B4 /* kdtree.c in Sources */,
@@ -420,12 +538,18 @@
 				5E2128BB2011A7E600C7F3B4 /* slic.c in Sources */,
 				5E2128C32011A7E600C7F3B4 /* host.c in Sources */,
 				5E2128B22011A7E600C7F3B4 /* imopv.c in Sources */,
+				5E0432D822645FF700ED8C63 /* mtcnn.cpp in Sources */,
 				5E2128AE2011A7E600C7F3B4 /* gmm.c in Sources */,
 				5E2128B82011A7E600C7F3B4 /* array.c in Sources */,
 				5E2128AC2011A7E600C7F3B4 /* scalespace.c in Sources */,
 				5E2128BD2011A7E600C7F3B4 /* pgm.c in Sources */,
 				5E2128CB2011A7E600C7F3B4 /* svm.c in Sources */,
+				5E0432DC22645FF700ED8C63 /* vectorSearch.cpp in Sources */,
+				5E0432D622645FF700ED8C63 /* AKAZE.cpp in Sources */,
+				5E0432DA22645FF700ED8C63 /* vladRootIDF.cpp in Sources */,
 				5E2128C12011A7E600C7F3B4 /* stringop.c in Sources */,
+				5E0432D222645FF700ED8C63 /* ocrRotate.cpp in Sources */,
+				5E0432D322645FF700ED8C63 /* utils.cpp in Sources */,
 				5E2128AB2011A7E600C7F3B4 /* ikmeans.c in Sources */,
 				5E2128AF2011A7E600C7F3B4 /* quickshift.c in Sources */,
 				5E2128BA2011A7E600C7F3B4 /* lbp.c in Sources */,
