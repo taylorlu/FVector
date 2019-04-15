@@ -200,7 +200,6 @@ vl_ikm_push_one (vl_ikmacc_t const *centers,
       vl_ikmacc_t delta = (vl_ikmacc_t)data[i] - centers[k*M + i] ;
       dist += delta * delta ;
     }
-
     /* compare with current best */
     if (best == (vl_uindex) -1 || dist < best_dist) {
       best = k  ;
@@ -264,7 +263,7 @@ vl_ikm_get_max_niters (VlIKMFilt const* f)
  ** @return maximum number of iterations.
  **/
 
-vl_ikmacc_t const *
+vl_ikmacc_t *
 vl_ikm_get_centers (VlIKMFilt const* f)
 {
   return f-> centers ;

@@ -74,7 +74,7 @@ VL_EXPORT vl_size vl_ikm_get_ndims (VlIKMFilt const *f) ;
 VL_EXPORT vl_size vl_ikm_get_K (VlIKMFilt const *f) ;
 VL_EXPORT int vl_ikm_get_verbosity (VlIKMFilt const *f) ;
 VL_EXPORT vl_size vl_ikm_get_max_niters (VlIKMFilt const *f) ;
-VL_EXPORT vl_ikmacc_t const *vl_ikm_get_centers (VlIKMFilt const *f) ;
+VL_EXPORT vl_ikmacc_t *vl_ikm_get_centers (VlIKMFilt const *f) ;
 /** @} */
 
 /** @name Set parameters
